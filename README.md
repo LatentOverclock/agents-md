@@ -13,3 +13,4 @@ Minimal file set for requirements-driven implementation.
 2. If using submodules, initialize it first:
    - `git submodule update --init agents-md`
 3. In the target project, follow the root `AGENTS.md` / `agents.md` instructions for implementation flow.
+4. For requirement changes, always use versioned revisions (`project.v2.md`, `project.v3.md`, ...) and keep `project.md` as the consolidated latest state.
