@@ -21,6 +21,7 @@ Instead of repeating long setup prompts in every project, keep `req-trace/` as a
 - `instructions.md` — prompt/workflow shortcuts
 - `template.md` — integration note (submodule usage)
 - `openclaw.md` — OpenClaw extension for consistent req-trace application
+- `requirements/project.vN.md` — versioned, append-only deltas (every change must respect the full ordered history, not just the latest file)
 
 ## Usage
 1. Keep this repository at `req-trace/` of your project

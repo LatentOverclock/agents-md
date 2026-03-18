@@ -11,6 +11,10 @@ For every new revision of the project requirements, create a new `requirements/p
 Do not rewrite or mutate older version files after they are created.
 The effective requirements are distributed across the ordered delta history (`requirements/project.v1.md` ... `requirements/project.vN.md`), so one cannot derive the full requirement state from only the newest file.
 Implementation must therefore consider all revisions up to the highest version.
+
+> **Non-negotiable:** every change (feature, bug fix, refactor) must comply with the entire effective requirements set — i.e. the union of _all_ `requirements/project.v*.md` files up to the latest version.
+> Never scope your work based solely on the newest delta; always cross-check the complete history before making changes.
+
 Any change in this project must be reflected in a new version-delta. Even if it is only a bug-fix.
 
 #### Archive folders are not implementation input
